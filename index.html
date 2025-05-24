@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sigma Saite</title>
+    <style>
+	parent {
+	display: flex;
+	
+}
+	.image-size {
+            width: 800px;
+            height: 600px;
+            object-fit: cover;
+        }
+	 .img { 
+            width: 45%; 
+            height: 40%; 
+            border-top: 2px solid rgba(255, 255, 255, 0.75); 
+            border-left: 2px solid rgba(255, 255, 255, 0.75); 
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.35); 
+            background: rgba(255, 255, 255, 0.25); 
+            border-radius: 15px; 
+            overflow: hidden; 
+            backdrop-filter: blur(4px);}
+        .background { 
+            width: 20%; 
+            height: 40%; 
+            border-top: 2px solid rgba(255, 255, 255, 0.75); 
+            border-left: 2px solid rgba(255, 255, 255, 0.75); 
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.35); 
+            background: rgba(255, 255, 255, 0.25); 
+            border-radius: 15px; 
+            overflow: hidden; 
+            backdrop-filter: blur(4px); 
+        } 
+	.bagground {
+	    text-align:center;
+	    margin:right;
+            width: 20%; 
+            height: 40%; 
+            border-top: 2px solid rgba(255, 255, 255, 0.75); 
+            border-left: 2px solid rgba(255, 255, 255, 0.75); 
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.35); 
+            background: rgba(255, 255, 255, 0.25); 
+            border-radius: 15px; 
+            overflow: hidden; 
+            backdrop-filter: blur(4px); 
+	margin:0px 8px;	
+        } 
+	.url {
+	text-align: center;
+	}
+        .maks { 
+            color: #fff; 
+        } 
+        .TP { 
+            color: green; 
+            background: black; 
+            text-align: center; 
+        } 
+        .yaica { 
+            color: blue; 
+            background: white; 
+            text-decoration: underline; 
+            font-size: 30px; 
+        } 
+        .main { 
+            background: linear-gradient(to bottom, white, blue, red); 
+        } 
+        .fon { 
+       
+	 background:#4577D4;
+	border-radius:4px;
+	color: #fff;	
+	}
+        .eq { 
+	color: white;
+            background: darkblue; 
+        } 
+        table {
+	padding-bottom:20px;
+	box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.35);
+            width: 20%;
+            border-collapse: collapse;
+	background: #98ADA3;
+        }
+        th, td {
+            padding: 8px;		
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body class="main">
+    <marquee behavior="alternate" direction="right"> 
+        <font size="5">ВСЕМ ОБЩИЙ СОЛОМАТИН</font> 
+    </marquee>  
+    <h1 class="TP"> 
+        <a href="https://yandex.ru/search/?text=%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&clid=2411726&lr=10722">Максим главный монстр ИП</a>
+    </h1> 
+    <ul type="circle">  
+        <li>никита - кодер</li> 
+        <li>максим бездарь и ип</li> 
+        <li>илья tg монстр</li> 
+    </ul> 
+ 
+    <button type="button" onclick="myFunction()" class="fon">Blue</button> 
+    <button type="button" onclick="myFunctionn()" class="fon">Yellow</button> 
+<button type="button" onclick="myFunctionnn()" class="fon">вернуть как быдло</button> 
+
+    <table border="1"> 
+        <colgroup> 
+            <col span="2" style="background:Khaki"> 
+            <col style="background-color:LightCyan"> 
+        </colgroup> 
+        <tbody> 
+            <tr> 
+                <td>Цвет</td> 
+                <td>Значение</td> 
+                <td>Уровень доброты и гармонии</td> 
+            </tr> 
+            <tr> 
+                <td>Синий цвет</td> 
+                <td>цвет знаний</td> 
+                <td>-</td> 
+            </tr> 
+            <tr> 
+                <td>Желтый цвет</td> 
+                <td>цвет солнышка</td> 
+                <td>100%</td> 
+            </tr> 
+        </tbody> 
+    </table> 
+    <p class="eq"> 
+        <font face="Arial" size="4">НИ В КОЕМ СЛУЧАЕ ЭТО НЕ ОТНОСИТСЯ К ПОЛИТИЧЕСКИМ ВЗГЛЯДАМ</font> 
+    </p>  
+    <p style="text-align:center">2м<sup>2</sup></p>  
+    <p class="maks" style="text-align:center"> 
+        <strong>С<sub>21</sub>H<sub>23</sub>NO<sub>5</sub></strong> 
+    </p> 
+	<parent>
+    <div class="background"> 
+        <p> 
+            <font size="3">Альт. текст с 3 размером</font> 
+        </p> 
+        <p> 
+            <font size="+2">Альт. текст с 5 (3+2) размером</font> 
+        </p> 
+        <p> 
+            <font size="5">Альт. текст с 5 размером</font> 
+        </p> 
+        <input placeholder="оцените ИПшность сайта">
+        <button type="button" onclick="Ip()">Добавить ИПшность</button>
+        <p id="textP">Счётчик ИП:</p> 
+    </div> 
+	 <div class="bagground"> 
+	<p> Топ ИП: </p> 
+	<p> 1. Максим А.Е: ∞ </p>
+ 	<p id="textN">2. нн на сайте:</p>
+    </div>
+	<div class="img">
+	 <input type="text" id="imageUrl" placeholder="Введите ИП URL изображение тут">
+	 <button id="showImageButton">ввести</button>
+	 <p>ввести изображение стоит 50 ИП </p>
+	 <div id="imageContainer"></div>
+	
+	</div>
+	</parent>
+<p> </p>
+	
+    <div class="tabW"> 
+        <table border="1"> 
+            <tbody> 
+                <tr> 
+                    <td>Имя цвета</td> 
+                    <td>Цвет</td> 
+                    <td>Включить</td>
+                </tr> 
+                <tr> 
+                    <td>black</td> 
+                    <td style="background:black"></td> 
+                    <td>
+			<button type="button" onclick="myFunctionblack()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>blue</td> 
+                    <td style="background:blue"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionblue()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>fuchsia</td> 
+                    <td style="background:fuchsia"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionfuchsia()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>gray</td> 
+                    <td style="background:gray"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctiongray()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>green</td> 
+                    <td style="background:green"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctiongreen()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>lime</td> 
+                    <td style="background:lime"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionlime()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>maroon</td> 
+                    <td style="background:maroon"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionmaroon()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>navy</td> 
+                    <td style="background:navy"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionnavy()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>olive</td> 
+                    <td style="background:olive"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionolive()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>purple</td> 
+                    <td style="background:purple"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionpurple()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>red</td> 
+                    <td style="background:red"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionred()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>silver</td> 
+                    <td style="background:silver"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionsilver()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td>teal</td> 
+                    <td style="background:teal"></td> 
+                    <td> 
+                        <button type="button" onclick="myFunctionteal()" class="fon">вкл</button> 
+                    </td> 
+                </tr> 
+            </tbody> 
+        </table> 
+    </div> 
+ <h6 class="yaica"> 
+        <font size="+1">кодил кодер <s>Никиточка</s> Максимочка</font> 
+    </h6> 
+ <button type="button" id="znan" onclick="myFunctionsecret()">открыть СЕКРЕТНЫЕ знания (100ИП)</button> 
+    <script>
+        let textP = 0;
+	let textN = 0;
+        function Ip(){
+            textP++;
+	    textN++;
+            document.getElementById("textP").innerHTML = "Счётчик ИП:" + textP;
+	    document.getElementById("textN").innerHTML = "2. нн на сайте:" + textN;
+        }
+	
+
+const imageUrlInput = document.getElementById('imageUrl');
+const showImageButton = document.getElementById('showImageButton');
+const imageContainer = document.getElementById('imageContainer');
+
+showImageButton.addEventListener('click', function() {
+    
+    if (textP < 50) {
+        alert('ТВОЁ ИП СЛИШКОМ СЛАБО');
+        return;
+    }
+    
+    const imageUrl = imageUrlInput.value.trim();
+    if (!/^https?:\/\//i.test(imageUrl)) {
+        alert('ЭЭЭЭЭ БРАТКА, НОРМАЛЬНЫЙ ССЫЛКА ВВЕДИ (должен начинаться с http:// или https://)');
+        return; 
+    }
+    
+ 
+    const img = new Image();
+    
+    
+    img.onload = function() {
+      
+        imageContainer.innerHTML = '';
+        img.classList.add('image-size');
+        img.alt = "wait for ИП";
+        imageContainer.appendChild(img);
+        alert('ИП изображение выведено');
+    };
+    
+  
+    img.onerror = function() {
+        alert('ЭЭЭЭЭ БРАТКА, ИЗОБРАЖЕНИЕ НЕ ЗАГРУЗИЛОСЬ. ВОЗВРАЩАЮ ИП');
+   
+        textP += 50;
+        textN += 50;
+        document.getElementById("textP").innerHTML = "Счётчик ИП:" + textP;
+        document.getElementById("textN").innerHTML = "2. нн на сайте:" + textN;
+    };
+    
+ 
+    img.src = imageUrl;
+    
+   
+    textP -= 50;
+    textN -= 50;
+    document.getElementById("textP").innerHTML = "Счётчик ИП:" + textP;
+    document.getElementById("textN").innerHTML = "2. нн на сайте:" + textN;
+});
+	function myFunctionsecret(){
+        if (textP >= 100) {
+            textP -= 100;
+            textN -= 100;
+            document.getElementById("textP").innerHTML = "Счётчик ИП:" + textP;
+            document.getElementById("textN").innerHTML = "2. нн на сайте:" + textN;
+            window.open('Максим_босс_Ип_2.html', '_blank');
+        }
+        else {
+            alert('ТВОЁ ИП СЛИШКОМ СЛАБО');
+        }
+
+        if (parselnt(textP) < 100) {
+            document.getElementById('znan').disabled = true;
+        } 
+}
+function myFunctionnn() {
+ document.body.style.background ="linear-gradient(to bottom, white, blue, red)";
+	}
+        function myFunction(){ 
+            document.body.style.background = "aqua"; 
+        } 
+        function myFunctionn(){ 
+            document.body.style.background = "yellow"; 
+        } 
+        function myFunctionblack(){ 
+            document.body.style.background = "black"; 
+        } 
+        function myFunctionblue(){ 
+            document.body.style.background = "blue"; 
+        } 
+        function myFunctionfuchsia(){ 
+            document.body.style.background = "fuchsia"; 
+        } 
+        function myFunctiongray(){ 
+            document.body.style.background = "gray"; 
+        } 
+        function myFunctiongreen(){ 
+            document.body.style.background = "green"; 
+        } 
+        function myFunctionlime(){ 
+            document.body.style.background = "lime"; 
+        } 
+        function myFunctionmaroon(){ 
+            document.body.style.background = "maroon"; 
+        } 
+        function myFunctionnavy(){ 
+            document.body.style.background = "navy"; 
+        } 
+        function myFunctionolive(){ 
+            document.body.style.background = "olive"; 
+        } 
+        function myFunctionpurple(){ 
+            document.body.style.background = "purple"; 
+        } 
+        function myFunctionred(){ 
+            document.body.style.background = "red"; 
+        } 
+        function myFunctionsilver(){ 
+            document.body.style.background = "silver"; 
+        } 
+        function myFunctionteal(){ 
+            document.body.style.background = "teal"; 
+        }
+    </script>
+</body>
+</html>
